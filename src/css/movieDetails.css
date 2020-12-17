@@ -1,0 +1,39 @@
+.movieDetails{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.movieDetails__poster{
+    height: 500px;
+    width: 600px;
+    margin-right: 10px;
+    border: 10px solid  #424651;
+}
+
+.movieDetails__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+
+
+.movieDetails__info > p{
+    border: 1px solid black;
+}
+
+table{
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }

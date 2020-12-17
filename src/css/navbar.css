@@ -1,0 +1,19 @@
+.navbar{
+    padding: 0px 15% 0px 15%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 70px;
+    background-color: rgb(34, 29, 29);
+    color: white;
+}
+
+.navbar__brand{
+    font-size: 30px;
+}
+
+.navbar__logo{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
